@@ -1,123 +1,112 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: PhilGreen-Dev/modern-resume-theme  # Replace with your GitHub username and repository name
+# favicon: images/favicon.ico  # Optional, uncomment if you have a favicon
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Phillip Green
+title: Aspiring Software Engineer
+email: phillip.g.green@outlook.com  # Replace with your email
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: (843) 940-3306
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: https://yourwebsite.com  # Replace with your website if you have one
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+twitter_username: IcePickPhilly  # Your Twitter username
+github_username:  PhilGreen-Dev  # Your GitHub username
+# stackoverflow_username: ""  # Replace with your StackOverflow user ID if you have one
+# dribbble_username: ""  # Replace with your Dribbble username if you have one
+# facebook_username: ""  # Replace with your Facebook username if you want
+# flickr_username: ""  # Replace with your Flickr username if you have one
+# instagram_username: ""  # Replace with your Instagram username if you have one
+linkedin_username: phillipggreen  # Replace with your LinkedIn username if you want
+# xing_username: ""  # Replace with your Xing username if you have one
+# pinterest_username: ""  # Replace with your Pinterest username if you have one
+# youtube_username: ""  # Replace with your YouTube username if you have one
+# orcid_username: ""  # Replace with your ORCID ID if you have one
+# googlescholar_username: ""  # Replace with your Google Scholar ID if you have one
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+# - title: Link name
+#   icon: fab fa-twitter
+#   url: https://twitter.com/IcePickPhilly
+# Uncomment above and replace with additional links if desired
 
 # Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.png  # Replace with the path to your profile image if you have one
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  I am Phillip Green, an aspiring Software Engineer with a passion for game development, web design, and software engineering. Currently pursuing a BS in Applied Computer Science at the University of Southern Mississippi. I enjoy creating new things, learning different coding languages, and collaborating on apps, websites, and web apps.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  In my free time, I love playing video games, spending time with my family, and developing indie games. 
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        border: weak  # Value of `weak` will display a weak border below this item.
+        title: CyberDev VS Code Theme
+        link: https://marketplace.visualstudio.com/items?itemName=PhillipGreen.CyberDev  # Example link
+        link_text: View on Visual Studio Marketplace
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: GitHub page for CyberDev theme
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/PhilGreen-Dev/CyberDev
         quote: >
-          Short overview of the project (optional)
+          A custom VS Code theme inspired by Cyberpunk aesthetics.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Developed a custom Visual Studio Code theme to enhance the coding experience with a cyberpunk aesthetic. The theme is available for download on the Visual Studio Marketplace and has gained traction among developers for its unique color scheme and design.
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: KION North America
+        sub_title: Quality Engineer
+        caption: September 2023 - Present
+        link: https://www.kion-na.com/en/  # Example link to company
         quote: >
-          Short description of the company (optional)
+          Forklift manufacturer based in Summerville, South Carolina.
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Working as a Quality Engineer, focusing on improving quality assurance processes. Actively engaged in process optimization and defect reduction strategies to ensure product excellence. Looking to transition to a software engineering role to apply my skills in a tech-oriented environment.
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: University of Southern Mississippi
+        sub_title: BS in Applied Computer Science
+        caption: 2022 - Present
         quote: >
-          Short institution or course description (optional)
+          Online program focused on practical software development skills.
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Engaged in comprehensive coursework covering web development, software engineering principles, and data structures. Gained hands-on experience through projects and collaborative learning environments.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      I enjoy diving into complex coding problems and coming up with creative solutions. My interests include game development, software engineering, and web design. I am always keen to learn new technologies and contribute to open-source projects.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      Outside of tech, I love spending time with my wife and kids, exploring new video games, and reading my favorite book series, the Grishaverse.
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# theme: modern-resume-theme (Use this if you are hosting your resume yourself)
+remote_theme: sproogen/modern-resume-theme  # Use this if you are hosting your resume on GitHub
 
 sass:
   sass_dir: _sass
@@ -137,4 +126,4 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]
