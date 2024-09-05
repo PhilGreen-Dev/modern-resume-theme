@@ -1,3 +1,11 @@
+# Phillip Green's Resume
+
+This repository contains my personal resume, built using the modern-resume-theme. The resume is live and can be viewed at [https://philgreen-dev.github.io/modern-resume-theme/](https://philgreen-dev.github.io/modern-resume-theme/).
+
+For more information on how to use this theme or to create your own resume, refer to the original instructions below.
+
+----
+
 # modern-resume-theme [![Gem Version](https://badge.fury.io/rb/modern-resume-theme.svg)](https://badge.fury.io/rb/modern-resume-theme) ![CI workflow](https://github.com/sproogen/modern-resume-theme/workflows/CI%20workflow/badge.svg?branch=master)
 
 *A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*  
