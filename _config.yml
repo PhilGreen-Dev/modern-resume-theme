@@ -7,31 +7,23 @@ version: 2
 
 # Personal info
 name: Phillip Green
-title: Aspiring Software Engineer
+title: Software Engineer and Freelance Developer
 email: phillip.g.green@outlook.com  # Replace with your email
 # email_title: Email (Email title override)
 phone: (843) 940-3306
 # phone_title: Phone (Phone title override)
-# website: https://yourwebsite.com  # Replace with your website if you have one
-# website_title: Web (Website title override)
+website: https://greendigitalsolutions.dev  # Replace with your website if you have one
+website_title: Green Digital Solutions
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 twitter_username: IcePickPhilly  # Your Twitter username
-github_username:  PhilGreen-Dev  # Your GitHub username
-# stackoverflow_username: ""  # Replace with your StackOverflow user ID if you have one
-# dribbble_username: ""  # Replace with your Dribbble username if you have one
-# facebook_username: ""  # Replace with your Facebook username if you want
-# flickr_username: ""  # Replace with your Flickr username if you have one
-# instagram_username: ""  # Replace with your Instagram username if you have one
+github_username: PhilGreen-Dev  # Your GitHub username
+instagram_username: Green.Digital.Solutions  # Your Instagram username
+facebook_username: GreenSolutionsHQ  # Your Facebook username
 linkedin_username: phillipggreen  # Replace with your LinkedIn username if you want
-# xing_username: ""  # Replace with your Xing username if you have one
-# pinterest_username: ""  # Replace with your Pinterest username if you have one
-# youtube_username: ""  # Replace with your YouTube username if you have one
-# orcid_username: ""  # Replace with your ORCID ID if you have one
-# googlescholar_username: ""  # Replace with your Google Scholar ID if you have one
 
 # Additional icon links
 additional_links:
@@ -49,9 +41,9 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.png  # Replace with the path to your profile image if you have one
 about_content: | # this will include new lines to allow paragraphs
-  I am Phillip Green, an aspiring Software Engineer with a passion for game development, web design, and software engineering. Currently pursuing a BS in Applied Computer Science at the University of Southern Mississippi. I enjoy creating new things, learning different coding languages, and collaborating on apps, websites, and web apps.
+  I am Phillip Green, a software engineer and freelance developer with a passion for game development, web design, and building digital solutions for small businesses. Currently pursuing a BS in Applied Computer Science at the University of Southern Mississippi, I’ve recently launched Green Digital Solutions to help businesses with their online presence.
 
-  In my free time, I love playing video games, spending time with my family, and developing indie games. 
+  In my free time, I love playing video games, spending time with my family, and working on indie game development projects.
 
 content:
   - title: Projects # Title for the section
@@ -70,6 +62,19 @@ content:
           A custom VS Code theme inspired by Cyberpunk aesthetics.
         description: | # this will include new lines to allow paragraphs
           Developed a custom Visual Studio Code theme to enhance the coding experience with a cyberpunk aesthetic. The theme is available for download on the Visual Studio Marketplace and has gained traction among developers for its unique color scheme and design.
+      - layout: left
+        border: weak
+        title: Green Digital Solutions
+        link: https://greendigitalsolutions.dev
+        link_text: View Website
+        additional_links:
+          - title: Instagram Page
+            icon: fab fa-instagram
+            url: https://instagram.com/Green.Digital.Solutions
+        quote: >
+          Freelance web development for small businesses.
+        description: | # this will include new lines to allow paragraphs
+          Built and maintain websites for local businesses, focusing on responsive design, SEO optimization, and branding. Integrated social media and e-commerce platforms to enhance online visibility.
   - title: Experience
     layout: list
     content:
@@ -82,6 +87,15 @@ content:
           Forklift manufacturer based in Summerville, South Carolina.
         description: | # this will include new lines to allow paragraphs
           Working as a Quality Engineer, focusing on improving quality assurance processes. Actively engaged in process optimization and defect reduction strategies to ensure product excellence. Looking to transition to a software engineering role to apply my skills in a tech-oriented environment.
+      - layout: right
+        title: Green Digital Solutions
+        sub_title: Founder / Freelance Developer
+        caption: 2024 - Present
+        link: https://greendigitalsolutions.dev
+        quote: >
+          Providing web development, logo design, and SEO services for small businesses.
+        description: | # this will include new lines to allow paragraphs
+          Founded Green Digital Solutions, a freelance development business, helping small businesses establish and grow their online presence. Focused on delivering tailored solutions for websites, digital marketing, and logo design.
   - title: Education
     layout: list
     content:
