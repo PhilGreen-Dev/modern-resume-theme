@@ -19,15 +19,7 @@ darkmode: false
 # Social links
 twitter_username: IcePickPhilly
 github_username: PhilGreen-Dev
-instagram_username: Green.Digital.Solutions
-facebook_username: GreenSolutionsHQ
 linkedin_username: phillipggreen
-
-# Additional icon links
-additional_links:
-  - title: The Green Stack Blog
-    icon: fab fa-blog
-    url: https://philgreen-dev.github.io/developer-guides/
 
 # Google Analytics and Tag Manager
 # gtm: "GTM-0000000"
@@ -108,7 +100,7 @@ content:
     content: |
       Passionate about crafting digital experiences, I am always exploring new technologies and engaging in open-source projects. My professional focus lies in game development, software engineering, and web design.
 
-      Beyond my work, I spend time with my wife and kids, indulge in gaming adventures, and enjoy reading the Grishaverse series.
+      Beyond my work, I spend time with my wife and kids, indulge in gaming, and enjoy reading new book series.
 
 # Footer
 footer_show_references: true
