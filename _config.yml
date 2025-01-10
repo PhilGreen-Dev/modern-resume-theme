@@ -7,30 +7,27 @@ version: 2
 
 # Personal info
 name: Phillip Green
-title: Software Engineer and Freelance Developer
-email: phillip.g.green@outlook.com  # Replace with your email
-# email_title: Email (Email title override)
+title: Software Engineer & Freelance Developer
+email: phillip.g.green@outlook.com
 phone: (843) 940-3306
-# phone_title: Phone (Phone title override)
-website: https://greendigitalsolutions.dev  # Replace with your website if you have one
+website: https://greendigitalsolutions.dev
 website_title: Green Digital Solutions
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: IcePickPhilly  # Your Twitter username
-github_username: PhilGreen-Dev  # Your GitHub username
-instagram_username: Green.Digital.Solutions  # Your Instagram username
-facebook_username: GreenSolutionsHQ  # Your Facebook username
-linkedin_username: phillipggreen  # Replace with your LinkedIn username if you want
+twitter_username: IcePickPhilly
+github_username: PhilGreen-Dev
+instagram_username: Green.Digital.Solutions
+facebook_username: GreenSolutionsHQ
+linkedin_username: phillipggreen
 
 # Additional icon links
 additional_links:
-# - title: Link name
-#   icon: fab fa-twitter
-#   url: https://twitter.com/IcePickPhilly
-# Uncomment above and replace with additional links if desired
+  - title: The Green Stack Blog
+    icon: fab fa-blog
+    url: https://philgreen-dev.github.io/developer-guides/
 
 # Google Analytics and Tag Manager
 # gtm: "GTM-0000000"
@@ -38,30 +35,29 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.png  # Replace with the path to your profile image if you have one
-about_content: | # this will include new lines to allow paragraphs
-  I am Phillip Green, a software engineer and freelance developer with a passion for game development, web design, and building digital solutions for small businesses. Currently pursuing a BS in Applied Computer Science at the University of Southern Mississippi, I’ve recently launched Green Digital Solutions to help businesses with their online presence.
+about_profile_image: images/profile.png
+about_content: |
+  I am Phillip Green, a software engineer and freelance developer specializing in game development, web design, and digital solutions for small businesses. I’m pursuing a BS in Applied Computer Science at the University of Southern Mississippi while actively running my business, Green Digital Solutions.
 
-  In my free time, I love playing video games, spending time with my family, and working on indie game development projects.
+  Outside of coding, I enjoy spending time with my family, playing video games, and working on indie game development projects.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item.
+        border: weak
         title: CyberDev VS Code Theme
-        link: https://marketplace.visualstudio.com/items?itemName=PhillipGreen.CyberDev  # Example link
+        link: https://marketplace.visualstudio.com/items?itemName=PhillipGreen.CyberDev
         link_text: View on Visual Studio Marketplace
         additional_links:
-          - title: GitHub page for CyberDev theme
+          - title: GitHub Page
             icon: fab fa-github
             url: https://github.com/PhilGreen-Dev/CyberDev
         quote: >
-          A custom VS Code theme inspired by Cyberpunk aesthetics.
-        description: | # this will include new lines to allow paragraphs
-          Developed a custom Visual Studio Code theme to enhance the coding experience with a cyberpunk aesthetic. The theme is available for download on the Visual Studio Marketplace and has gained traction among developers for its unique color scheme and design.
+          A visually engaging VS Code theme inspired by Cyberpunk aesthetics.
+        description: |
+          Designed to enhance productivity and the coding experience, CyberDev features a bold cyberpunk color scheme that has resonated with developers. Available on the Visual Studio Marketplace with ongoing updates and community feedback.
       - layout: left
         border: weak
         title: Green Digital Solutions
@@ -72,9 +68,9 @@ content:
             icon: fab fa-instagram
             url: https://instagram.com/Green.Digital.Solutions
         quote: >
-          Freelance web development for small businesses.
-        description: | # this will include new lines to allow paragraphs
-          Built and maintain websites for local businesses, focusing on responsive design, SEO optimization, and branding. Integrated social media and e-commerce platforms to enhance online visibility.
+          Empowering small businesses through digital innovation.
+        description: |
+          Providing tailored web development and branding solutions for small businesses. Services include responsive web design, SEO optimization, and e-commerce integration to help businesses thrive online.
   - title: Experience
     layout: list
     content:
@@ -82,20 +78,20 @@ content:
         title: KION North America
         sub_title: Quality Engineer
         caption: September 2023 - Present
-        link: https://www.kion-na.com/en/  # Example link to company
+        link: https://www.kion-na.com/en/
         quote: >
-          Forklift manufacturer based in Summerville, South Carolina.
-        description: | # this will include new lines to allow paragraphs
-          Working as a Quality Engineer, focusing on improving quality assurance processes. Actively engaged in process optimization and defect reduction strategies to ensure product excellence. Looking to transition to a software engineering role to apply my skills in a tech-oriented environment.
+          Optimizing quality processes for a leading forklift manufacturer.
+        description: |
+          Spearheading quality improvement initiatives, reducing product defects, and streamlining manufacturing workflows. Transitioning into software engineering to merge technical expertise with process innovation.
       - layout: right
         title: Green Digital Solutions
         sub_title: Founder / Freelance Developer
         caption: 2024 - Present
         link: https://greendigitalsolutions.dev
         quote: >
-          Providing web development, logo design, and SEO services for small businesses.
-        description: | # this will include new lines to allow paragraphs
-          Founded Green Digital Solutions, a freelance development business, helping small businesses establish and grow their online presence. Focused on delivering tailored solutions for websites, digital marketing, and logo design.
+          Delivering bespoke digital solutions for small businesses.
+        description: |
+          Established a freelance business offering website development, logo design, and SEO services. Focused on building user-friendly websites with an emphasis on performance and brand alignment.
   - title: Education
     layout: list
     content:
@@ -104,24 +100,22 @@ content:
         sub_title: BS in Applied Computer Science
         caption: 2022 - Present
         quote: >
-          Online program focused on practical software development skills.
-        description: | # this will include new lines to allow paragraphs
-          Engaged in comprehensive coursework covering web development, software engineering principles, and data structures. Gained hands-on experience through projects and collaborative learning environments.
+          Comprehensive coursework with practical software development projects.
+        description: |
+          Focusing on programming languages, web development, and algorithm design. Applying academic knowledge to real-world applications through internships and personal projects.
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      I enjoy diving into complex coding problems and coming up with creative solutions. My interests include game development, software engineering, and web design. I am always keen to learn new technologies and contribute to open-source projects.
+    content: |
+      Passionate about crafting digital experiences, I am always exploring new technologies and engaging in open-source projects. My professional focus lies in game development, software engineering, and web design.
 
-      Outside of tech, I love spending time with my wife and kids, exploring new video games, and reading my favorite book series, the Grishaverse.
+      Beyond my work, I spend time with my wife and kids, indulge in gaming adventures, and enjoy reading the Grishaverse series.
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+# references_title: References available upon request
 
 # Build settings
-# theme: modern-resume-theme (Use this if you are hosting your resume yourself)
-remote_theme: sproogen/modern-resume-theme  # Use this if you are hosting your resume on GitHub
-
+remote_theme: sproogen/modern-resume-theme
 sass:
   sass_dir: _sass
   style: compressed
@@ -129,15 +123,14 @@ sass:
 plugins:
  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-]
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "lib/"
+  - "scripts/"
+  - "docker-compose.yml"
