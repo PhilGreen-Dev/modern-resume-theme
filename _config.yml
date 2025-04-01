@@ -1,6 +1,6 @@
 # Site
-repository: PhilGreen-Dev/modern-resume-theme  # Replace with your GitHub username and repository name
-# favicon: images/favicon.ico  # Optional, uncomment if you have a favicon
+repository: PhilGreen-Dev/modern-resume-theme
+# favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -13,7 +13,7 @@ phone: (843) 940-3306
 website: https://greendigitalsolutions.dev
 website_title: Green Digital Solutions
 
-# Dark Mode (true/false/never)
+# Dark Mode
 darkmode: false
 
 # Social links
@@ -21,17 +21,14 @@ twitter_username: IcePickPhilly
 github_username: PhilGreen-Dev
 linkedin_username: phillipggreen
 
-# Google Analytics and Tag Manager
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
 # About Section
 about_profile_image: images/profile.png
 about_content: |
-  I am Phillip Green, a software engineer and freelance developer specializing in game development, web design, and digital solutions for small businesses. I’m pursuing a BS in Applied Computer Science at the University of Southern Mississippi while actively running my business, Green Digital Solutions.
+  I'm a software engineer, indie game dev, and freelance web designer with a passion for clean code and bold ideas. After years in quality engineering, I transitioned into tech and never looked back.
 
-  Outside of coding, I enjoy spending time with my family, playing video games, and working on indie game development projects.
+  I now specialize in building responsive websites, launching digital brands, and writing clean, purposeful code. I'm currently studying Applied Computer Science at the University of Southern Mississippi while running my freelance business, Green Digital Solutions.
+
+  Outside of coding, you’ll find me exploring open-world games, diving into fantasy books, or enjoying life with my amazing wife and kids.
 
 content:
   - title: Projects
@@ -43,13 +40,14 @@ content:
         link: https://marketplace.visualstudio.com/items?itemName=PhillipGreen.CyberDev
         link_text: View on Visual Studio Marketplace
         additional_links:
-          - title: GitHub Page
+          - title: GitHub Repo
             icon: fab fa-github
             url: https://github.com/PhilGreen-Dev/CyberDev
         quote: >
-          A visually engaging VS Code theme inspired by Cyberpunk aesthetics.
+          A sleek, cyberpunk-inspired theme for VS Code that makes long coding sessions more vibrant.
         description: |
-          Designed to enhance productivity and the coding experience, CyberDev features a bold cyberpunk color scheme that has resonated with developers. Available on the Visual Studio Marketplace with ongoing updates and community feedback.
+          Inspired by futuristic UI design, CyberDev delivers a color scheme built for clarity, contrast, and vibe. Created with community feedback in mind and regularly updated.
+          
       - layout: left
         border: weak
         title: Green Digital Solutions
@@ -60,51 +58,58 @@ content:
             icon: fab fa-instagram
             url: https://instagram.com/Green.Digital.Solutions
         quote: >
-          Empowering small businesses through digital innovation.
+          Helping small businesses launch modern, effective websites.
         description: |
-          Providing tailored web development and branding solutions for small businesses. Services include responsive web design, SEO optimization, and e-commerce integration to help businesses thrive online.
+          A freelance brand focused on custom website development, branding, and SEO. I work with small business owners to craft scalable, aesthetic digital platforms that reflect their identity and drive growth.
+
   - title: Experience
     layout: list
     content:
       - layout: right
         title: KION North America
         sub_title: Quality Engineer
-        caption: September 2023 - Present
+        caption: September 2023 – Present
         link: https://www.kion-na.com/en/
         quote: >
-          Optimizing quality processes for a leading forklift manufacturer.
+          Bridging the gap between quality systems and software innovation.
         description: |
-          Spearheading quality improvement initiatives, reducing product defects, and streamlining manufacturing workflows. Transitioning into software engineering to merge technical expertise with process innovation.
+          Lead process improvement initiatives in a high-demand manufacturing environment. Focused on defect reduction and systems optimization while transitioning to a software engineering role through continued education and freelance development work.
+
       - layout: right
         title: Green Digital Solutions
         sub_title: Founder / Freelance Developer
-        caption: 2024 - Present
+        caption: 2024 – Present
         link: https://greendigitalsolutions.dev
         quote: >
-          Delivering bespoke digital solutions for small businesses.
+          Designing digital identities for small businesses.
         description: |
-          Established a freelance business offering website development, logo design, and SEO services. Focused on building user-friendly websites with an emphasis on performance and brand alignment.
+          Work with clients to develop responsive websites, implement SEO strategies, and build branding assets. Manage full project lifecycles—from discovery to deployment.
+
   - title: Education
     layout: list
     content:
       - layout: top-right
         title: University of Southern Mississippi
         sub_title: BS in Applied Computer Science
-        caption: 2022 - Present
+        caption: 2022 – Present
         quote: >
-          Comprehensive coursework with practical software development projects.
+          Applying academic knowledge to real-world projects in software development.
         description: |
-          Focusing on programming languages, web development, and algorithm design. Applying academic knowledge to real-world applications through internships and personal projects.
+          Studying programming languages, operating systems, and algorithm design while gaining hands-on experience through both coursework and freelance client work.
+
   - title: A Little More About Me
     layout: text
     content: |
-      Passionate about crafting digital experiences, I am always exploring new technologies and engaging in open-source projects. My professional focus lies in game development, software engineering, and web design.
+      I'm a self-driven creator who believes in the power of tech to empower people and solve real-world problems. I enjoy working with small businesses to bring their visions to life and mentoring beginner developers through approachable, human-centered content.
 
-      Beyond my work, I spend time with my wife and kids, indulge in gaming, and enjoy reading new book series.
+      In my free time, I enjoy:
+      - 🎮 Open-world games like Horizon Zero Dawn and Pokémon
+      - 📚 Fantasy fiction (especially the Grishaverse)
+      - 👨‍👩‍👧‍👦 Family time with my wife and two kids
+      - 🎨 Exploring game dev in Unity and Godot
 
 # Footer
 footer_show_references: true
-# references_title: References available upon request
 
 # Build settings
 remote_theme: sproogen/modern-resume-theme
